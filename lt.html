@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .nav {
+            width: 100%;
+            background-color: red;
+            color: #48487f;
+            height: 50px;
+            display: flex;
+
+        }
+
+        .icon {
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            color: white;
+            position: relative;
+        }
+
+        #icon {
+            margin-right: 30px;
+            line-height: 45px;
+        }
+
+        #icon2 {
+            width: 50%;
+            float: right;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-right: 0px;
+            color: white;
+
+        }
+
+        #icon2 a {
+            text-decoration: none;
+            color: white;
+        }
+
+        #icon3 {
+            padding-left: 20px;
+        }
+
+        .content {
+            width: 80%;
+            margin: auto;
+            background-color: white;
+            height: 1950px;
+        }
+
+        .content h1 {
+            text-shadow: 2px 2px 10px red;
+            text-align: center;
+            padding-top: 20px;
+            font-size: 56px;
+           
+
+        }
+
+        .content p {
+            text-align: center;
+            color: #202124;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .content button {
+            width: 190px;
+            height: 60px;
+            text-align: center;
+            font-size: large;
+            margin-left: 42%;
+            margin-top: 10px;
+        }
+
+        .content img {
+            width: 100%;
+            height: 580px;
+            margin: auto;
+            padding-top: 50px;
+            margin: top 0px;
+            ;
+        }
+
+        #Updates {
+            font-size: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-shadow: none;
+            color: #202124;
+        }
+
+        .colum {
+            width: 100%;
+            height: 650px;
+            background-color: #48487f;
+            margin-top: 20px;
+
+        }
+
+        .col1,
+        .col2,
+        .col3 {
+            width: 30%;
+            height: 500px;
+            margin: auto;
+            float: left;
+            padding-top: 10px;
+            padding-left: 20px;
+        }
+
+        .col1 img {
+            height: 300px;
+            padding-top: 0px;
+            margin-left: 0px;
+        }
+
+        .col1 a {
+            text-decoration: none;
+            color: white;
+            /* #48487f; */
+            font: 16px, "sans-serif";
+
+        }
+
+        .col1 p {
+            font: 16px, "sans-serif";
+            color: #202124;
+            text-align: justify;
+            padding-top: 5px;
+        }
+
+        .col2 a {
+            text-decoration: none;
+            color: white;
+            /* #48487f; */
+            font: 16px, "sans-serif";
+
+        }
+
+        .col2 p {
+            font: 16px, "sans-serif";
+            color: #202124;
+            text-align: justify;
+            padding-top: 5px;
+        }
+
+        .col3 a {
+            text-decoration: none;
+            color: white;
+            /* #48487f; */
+            font: 16px, "sans-serif";
+
+        }
+
+        .col3 p {
+            font: 16px, "sans-serif";
+            color: #202124;
+            text-align: justify;
+            padding-top: 5px;
+        }
+
+        h2 {
+            margin-top: 15px;
+            margin-left: 47%;
+        }
+
+
+
+        .img  img {
+            float: left;
+            width: 300px;
+            height: 300px;
+            margin-left: 70px;
+
+        }
+        .center h2{
+            float: none;
+        }
+        .last  
+        {
+            width: 80%;
+            margin: auto;
+        }
+        .last img{
+            width: 100%;
+            height: 500px;
+        }
+        #h23{
+            text-align: none
+            ;
+        }
+        .seccolunm{
+            background-color: red;
+            height: 200px;
+            display: flex;
+            justify-content:space-around;
+        }
+        .col4, .col5,.col6{
+            width: 30%;
+            height: 100px;
+        }
+        .col4,.col5,.col6{
+            
+            font-size: 20px;
+            font-weight: bold;
+            padding-top: 10px;
+            color: white;
+        }
+       #id
+       {
+        font-size: 16px;
+       }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="icon">
+            <i class="fa-solid fa-bars" id="icon"></i>
+            <h1>Pavan Share Market classes</h1>
+        </div>
+        <div id="icon2">
+
+            <div id="icon3"><i class="fa-sharp fa-solid fa-bars"></i>
+                <a href="#">Get Quate</a>
+            </div>
+
+
+            <div> <i class="fa-solid fa-phone"></i>
+                <a href="#">Call Now</a>
+            </div>
+
+            <div><i class="fa-solid fa-diamond-turn-right"></i>
+                <a href="#">
+                    Get Directions</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="content">
+        <h1>Pavan Share Market Classes <br> Pune</h1>
+        <p>Coaching Center in Wakad <br>
+            Opening at 9:00 AM tomorrow</p>
+        <button>
+            Get Quate
+        </button>
+
+        <img src="istockphoto-1487894858-170667a.webp" alt="">
+        <h1 id="Updates">Updates</h1>
+
+        <div class="colum">
+            <div class="col1"> <img src="istockphoto-1487894858-170667a.webp" alt=""> <a href="#">Posted on Jul 30,
+                    2023</a>
+                <p>NSE training program conducted on Trading with Advance Technical tools and Options Strategies</p>
+                <br><br><br><br>
+                <a href="#">Posted on Jun 9, 2022</a>
+                <p>A seed only knows one purpose - to see sunlight so it can live. It does not get distracted by its
+                    feelings or by what other seeds say about it, it does not compare or complain, it never quits. Its
+                    obsession is to grow.</p>
+            </div>
+            <div class="col2"> <a href="#">Posted on Oct 15, 2022</a>
+                <p>*शेअर मार्केट शिकायचंय???* <br><br>
+
+                    *मग विचार कसला करताय?आहे आपली हक्काची जागा...* <br><br>
+
+                    *LT शेअर मार्केट क्लासेस, पुणे.* <br> <br>
+
+
+                    *शेअर मार्केट मध्ये नवीनच असणाऱ्या सर्वांसाठी एक हक्काचे व्यासपीठ म्हणजेच LT शेअर मार्केट क्लासेस,
+                    पुणे...* <br> <br>
+
+
+                    *पुरुष असो वा स्त्री,* <br><br>
+                    *नोकरदार असो वा गृहिणी,* <br><br>
+                    *विद्यार्थी असो वा विद्यार्...</p> <br>
+
+                <a href="#">Read More</a> <br><br><br><br>
+                <a href="#">Posted on May 19, 2022</a> <br>
+                <p>We are official partner with Upstox and Alice blue now.
+
+                    Please use below links for account opening.</p> <br> <a href="#">
+                    https://alicebluepartner.com/open-myaccount/?M=WMUM803</a> <br><br><a
+                    href="#">https://upstox.com/open-account/?f=CO7W</a>
+            </div>
+            <div class="col3"> <a href="#">Posted on Sep 28, 2022</a>
+                <p>I will tell you the secret to getting rich on Wall Street. You try to be greedy when others are
+                    fearful. And you try to be fearful when others are greedy. –Warren Buffett</p> <br><br><br> <a
+                    href="#">Posted on Sep 30, 2022</a> <br>
+                नमस्कार
+                सर्वांना नवरात्री उत्सवाच्या खुप खुप शुभेच्छा 🙏🏻🙂
+
+                *_LT share market_* तर्फे या नवरात्री उत्सवाच्या निमित्ताने सर्व माता भगिनींना *शेअर मार्केट
+                इंव्हेस्टमेंट अँड ट्रेडिंग कोर्स* फी मध्ये 10% विशेष सवलत!! अटी लागू*...
+                (*दि. 5 ऑक्टोबर, 2022 पर्यंत, आमच्या सध्या सुरू असलेल्या बॅच मध्ये अथ... <br><br><br><br>
+                <a href="#">Posted on Apr 22, 2022</a> <br>
+                <p>"Choose the non-emotional response to any given situation and see how much easier your life becomes."
+                </p>
+            </div>
+
+        </div>
+
+        <h2>Gallery</h2>
+        <div class="img">
+           <div>
+            <img src="Nifty_1667546435835_1670548265677_1670548265677.webp" alt="">
+            <img src="istockphoto-1487894858-170667a.webp" alt="">
+             <img src="2023-07-30.jpg" alt="">
+           </div>
+        </div>
+
+    
+        
+        
+       </div>
+      
+    </div>
+    
+
+
+    </div>
+    <h2>Contact Us</h2>
+    <div class="last">
+        <img src="15a985a3-33df-4c25-ada3-e239d251b26b.webp" alt="">
+        <div class="seccolunm">
+            <div class="col4"><p>Contact</p>
+            <br>
+        <button style="width: 35%; height: 35px; background-color: blue; color: white;">Call Now</button> <br>
+   <p style="font-size: 16px;padding: 5px;"> 9146903544</p></div>
+            <div class="col5"><p> Address</p>
+            
+                <button style="width: 35%; height: 35px; background-color: blue; color: white; padding: 10px; margin-top:20px ;">Get Directions</button><p style="font-size: 16px;padding: 5px;"> Shop no 131, Vision One Mall
+                    Bhumkar Chowk Road
+                    Wakad
+                    Pune, Maharashtra 411033
+                    India</p> </div>
+            <div class="col6"><p>Business Hours</p>
+            
+                <div id="id">
+                Mon:	9:00 AM – 9:00 PM <br>
+                Tue:	9:00 AM – 9:00 PM <br>
+                Wed:	9:00 AM – 9:00 PM <br>
+                Thu:	9:00 AM – 9:00 PM<br>
+                Fri:	9:00 AM – 9:00 PM<br>
+                Sat:	9:00 AM – 7:00 PM<br>
+                Sun:	9:00 AM – 9:00 PM
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
